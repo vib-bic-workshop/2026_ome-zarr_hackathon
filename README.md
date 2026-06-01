@@ -26,7 +26,7 @@ apptainer run eubi-bridge-0.1.2b1.sif eubi-gui
 
 ## Building
 
-- only works on Tier2 KUL, wice
+- only works on Tier2 KUL, wice: connect here: https://ondemand.hpc.kuleuven.be
 ```bash
 sbatch eubibridge.slurm
 ```
