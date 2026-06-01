@@ -88,6 +88,9 @@ This viewer do not us ethe Min/Max setting saved in the ome.zarr file
 
 ##### Vizarr
 
+The viewer is 2D only
+<img width="1301" height="753" alt="image" src="https://github.com/user-attachments/assets/d2d77a2e-01ba-400f-b00f-e0d788180b44" />
+
 #### App based
 
 ##### Mobie
@@ -95,8 +98,6 @@ This viewer do not us ethe Min/Max setting saved in the ome.zarr file
 ##### Napari
 
 Napari has a 3d viewer but that use only the lowest resolution in 3D
-The viewer is 2D only
-<img width="1301" height="753" alt="image" src="https://github.com/user-attachments/assets/d2d77a2e-01ba-400f-b00f-e0d788180b44" />
 
 
 Documentation : https://ome-zarr.readthedocs.io
