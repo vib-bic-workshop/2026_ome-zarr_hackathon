@@ -30,3 +30,8 @@ apptainer run eubi-bridge-0.1.2b1.sif eubi-gui
 ```bash
 sbatch eubibridge.slurm
 ```
+### example of concatenation
+- how to concatenate a image sequence of 2 channels along cz
+<img width="1888" height="909" alt="image" src="https://github.com/user-attachments/assets/7366cc53-f916-4bb7-846c-b82447a4dc9d" />
+
+
