@@ -16,4 +16,4 @@ apptainer run eubi-bridge-0.1.2b1.sif eubi-gui
 ```
 - specify the input, output
 - select inspect after the conversion to see the results
-~                                                            
+                                                          
