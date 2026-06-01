@@ -45,9 +45,59 @@ sbatch eubibridge.slurm
 - how to concatenate a image sequence of 2 channels along cz
 <img width="1888" height="909" alt="image" src="https://github.com/user-attachments/assets/7366cc53-f916-4bb7-846c-b82447a4dc9d" />
 
-## Use ome-zarr
+## Validate and Visualize with ome-zarr-py
 
-ome-zarr-py
+### Installation
 
-https://ome-zarr.readthedocs.io
+```bash
+conda create -y -n ome-zarr -c conda-forge python=3.12
+conda activate ome-zarr
+pip install pip install ome-zarr
+```
+### Start
+
+```bash
+ome_zarr view 900_New-07-AiryscanProcessing-05.zarr
+```
+
+### Validation
+
+Validation appear as soon as you start it
+
+<img width="1662" height="735" alt="image" src="https://github.com/user-attachments/assets/5a886e55-11b2-42ca-b9b2-7cb84c559c60" />
+
+### Visualize
+
+<img width="247" height="46" alt="image" src="https://github.com/user-attachments/assets/5e830be4-6a79-4c2a-80b5-020aaeb88aad" />
+
+Multiple viewers can be used to visualize tool
+
+#### Web Based
+
+##### Vol-E
+
+This viewer do not use the Min/Max setting saved in the ome.zarr file
+
+<img width="1612" height="682" alt="image" src="https://github.com/user-attachments/assets/6d0db760-1e0d-4696-b659-cdde4b33f2ec" />
+
+##### Neuroglancer
+
+This viewer do not us ethe Min/Max setting saved in the ome.zarr file
+
+<img width="1770" height="745" alt="image" src="https://github.com/user-attachments/assets/db0e615f-d760-47ce-ae91-ced509909524" />
+
+##### Vizarr
+
+#### App based
+
+##### Mobie
+
+##### Napari
+
+Napari has a 3d viewer but that use only the lowest resolution in 3D
+The viewer is 2D only
+<img width="1301" height="753" alt="image" src="https://github.com/user-attachments/assets/d2d77a2e-01ba-400f-b00f-e0d788180b44" />
+
+
+Documentation : https://ome-zarr.readthedocs.io
 
