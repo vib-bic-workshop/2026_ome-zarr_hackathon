@@ -24,3 +24,9 @@ apptainer run eubi-bridge-0.1.2b1.sif eubi-gui
 
 <img width="1610" height="751" alt="image" src="https://github.com/user-attachments/assets/8426b1d5-ce1e-4ef4-9cb2-c07056b6c3e1" />
 
+## Building
+
+- only works on Tier2 KUL, wice
+```bash
+sbatch eubibridge.slurm
+```
