@@ -15,13 +15,41 @@ cd /dodrio/scratch/projects/2024_300/ome_zarr_hackathon_2026/containers
 apptainer run eubi-bridge-0.1.2b1.sif eubi-gui
 ```
 ### specify the input, output
-                                                          
+
+#### Load config option
 <img width="1603" height="750" alt="image" src="https://github.com/user-attachments/assets/22002fb3-0e00-4b09-b4ae-85bb998430ab" />
 
 - `Max worker` : number of simultanoiouly images that  will be converted. If you have a single image, it will use only 1 worker
 - Memory size used by the converter is equal to `Max concurency` x `Region Size` x `Max worker` (but a single image will use 1 `Max Worker` only)
 
+#### Reader option:
 <img width="1610" height="751" alt="image" src="https://github.com/user-attachments/assets/8426b1d5-ce1e-4ef4-9cb2-c07056b6c3e1" />
+
+#### Conversion options:
+That's where you can precise the ome.zarr format version (v2 == 0.4, v3 === 0.5), the codec compression, 
+<img width="1277" height="800" alt="image" src="https://github.com/user-attachments/assets/a14e6b2f-fd60-4b37-9059-29ffbc2cde9f" />
+
+#### Downscaling
+
+Allow specific downscaling, e.g. not downscaling in Z but only in XY (in that case, set 1 to `Scale Z`).
+
+`Apply Smart Downscaling` will try to create downscaling to generate rougly isotropic ome.zarr, which could be usefull for image processing. E.g., if you have pixel size of ZYX 5,1,1, then downlscale will be 1,5,5 for the first downscale, then 2,2,2 etc... so all images and different scale will be isovoxel.
+
+<img width="1282" height="828" alt="image" src="https://github.com/user-attachments/assets/f48a92d2-b1b2-4bd2-ab61-13f914e01c87" />
+
+#### Metadata
+
+This will allow you to override metadata, like the pixel size
+
+<img width="1278" height="821" alt="image" src="https://github.com/user-attachments/assets/99758306-0de0-410c-94f2-2b3aae5ce931" />
+
+#### Run
+Where you start the conversion process
+
+<img width="1277" height="805" alt="image" src="https://github.com/user-attachments/assets/515d9c7d-4a81-4910-983a-b34f5f5b0026" />
+
+#### Config 
+On top of this, you can also Save and Load config
 
 ### Inspect after conversion
 
