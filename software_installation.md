@@ -13,7 +13,7 @@ conda config --append pkgs_dirs $VSC_SCRATCH/conda_pkgs
 conda create -n eubizarr openjdk=11.* maven python=3.12
 source activate eubizarr
 pip install pyqt6=6.8.1
-pip install --no-cache-dir eubi-bridge==0.1.1
+pip install --no-cache-dir eubi-bridge==0.1.2b1
 eubi reset_config
 ```
 ## EESSI
