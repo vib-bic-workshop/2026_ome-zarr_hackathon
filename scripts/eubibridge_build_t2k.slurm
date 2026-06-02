@@ -14,4 +14,4 @@
 
 APPTAINER_CACHEDIR=$VSC_SCRATCH/.apptainer/cache
 APPTAINER_TMPDIR=$VSC_SCRATCH/.apptainer/tmp
-apptainer pull eubibridge.sif docker://bugraoezdemir/eubi-bridge
+apptainer pull eubibridge.sif docker://bugraoezdemir/eubi-bridge:0.1.2b2
