@@ -8,8 +8,10 @@
 
 ```bash
 module load Miniconda3
+mkdir -p $VSC_DATA/conda_envs
+mkdir -p $VSC_SCRATCH_PROJECTS_BASE/2024_300/yourusername/conda_pkgs
 conda config --append envs_dirs $VSC_DATA/conda_envs
-conda config --append pkgs_dirs $VSC_SCRATCH/conda_pkgs
+conda config --append pkgs_dirs $VSC_SCRATCH_PROJECTS_BASE/2024_300/yourusername/conda_pkgs
 conda create -n eubizarr openjdk=11.* maven python=3.12
 source activate eubizarr
 pip install pyqt6=6.8.1
