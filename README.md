@@ -73,6 +73,11 @@ sbatch eubibridge.slurm
 - how to concatenate a image sequence of 2 channels along cz
 <img width="1888" height="909" alt="image" src="https://github.com/user-attachments/assets/7366cc53-f916-4bb7-846c-b82447a4dc9d" />
 
+### running slurm jobs on the GUI
+
+<img width="1906" height="907" alt="image" src="https://github.com/user-attachments/assets/f2ea8c61-1f29-46ef-8b66-d5e17ef9d82a" />
+
+
 ## Validate and Visualize with ome-zarr-py
 
 ### Installation
