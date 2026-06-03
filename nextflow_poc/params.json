@@ -2,6 +2,5 @@
     "input_csv": "/home/tatiana/test_data/input.csv",
     "outdir" : "/home/tatiana/results",
     "region_size_mb":1024,
-    "max_concurrency": 1,
-    "max_workers":1
+    "max_concurrency": 4
 }
