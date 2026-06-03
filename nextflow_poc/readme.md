@@ -18,6 +18,7 @@ nextflow run main.nf -profile vsc_ugent,singularity_tier1 -params-file params.js
 ### to do
 - debug docker issue
 - add nf-test
+- test with pulling container on Tier1 and Tier2K
 
 
 ### Ben's wish
