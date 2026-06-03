@@ -2,5 +2,8 @@
     "input_csv": "/home/tatiana/test_data/input.csv",
     "outdir" : "/home/tatiana/results",
     "region_size_mb":1024,
-    "max_concurrency": 4
+    "max_concurrency": 4,
+    "concatenation_axes" : null,
+    "channel_tag":  null,
+    "z_tag": null
 }

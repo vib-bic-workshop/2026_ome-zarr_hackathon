@@ -1,0 +1,10 @@
+{
+    "input_csv": "/home/tatiana/test_conca/input.csv",
+    "outdir" : "/home/tatiana/results",
+    "region_size_mb":256,
+    "max_concurrency": 1,
+    "channel_tag":  "C1_autofluorescence,C2_farRed",
+    "z_tag": "TEST_",
+    "concatenation_axes":"cz"
+
+}
