@@ -138,3 +138,22 @@ Napari has a 3d viewer but that use only the lowest resolution in 3D
 
 Documentation : https://ome-zarr.readthedocs.io
 
+## Conda
+
+### Install
+
+```bash
+conda create -n eubizarr openjdk=11.* maven python=3.12
+conda activate eubizarr
+pip install --no-cache-dir eubi-bridge==0.1.2b1
+```
+
+### Run
+
+#### GUI
+
+```bash
+eubi-gui
+```
+
+### Validation
