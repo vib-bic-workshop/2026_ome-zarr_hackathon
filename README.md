@@ -79,8 +79,9 @@ sbatch eubibridge.slurm
 ### example of concatenation
 - how to concatenate an image sequence of 2 channels along cz
 <img width="1888" height="909" alt="image" src="https://github.com/user-attachments/assets/7366cc53-f916-4bb7-846c-b82447a4dc9d" />
+<img width="1910" height="991" alt="Screenshot_4-6-2026_10384_tier1 hpc ugent be" src="https://github.com/user-attachments/assets/4d50cee9-2960-47ef-a7ea-038bfdcf5e5d" />
 
-### Viewer example after concatenation
+### A second example after concatenation
 <img width="1909" height="987" alt="Screenshot_3-6-2026_141016_tier1 hpc ugent be" src="https://github.com/user-attachments/assets/c86da6c0-d95e-480d-ba64-ed30a8c4d1e1" />
 
 ### running slurm jobs on the GUI
