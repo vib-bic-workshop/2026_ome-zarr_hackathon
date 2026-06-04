@@ -39,6 +39,12 @@ Allow specific downscaling, e.g. not downscaling in Z but only in XY (in that ca
 
 #### Metadata
 
+Allow to modify some metadata (Min/Max intensity duisplay, Pixel size, Time scale)
+
+- `Channel Intensity` :
+  - `from datatype` : Will take to theoritical Min/Max value, e.g. 0/255 for uint8
+  - `from array` if you want to caculate the Min/Max intensity and set it in the metadata during the converion isntead of using the value from the metadata.
+
 This will allow you to override metadata, like the pixel size
 
 <img width="1278" height="821" alt="image" src="https://github.com/user-attachments/assets/99758306-0de0-410c-94f2-2b3aae5ce931" />
@@ -57,6 +63,7 @@ On top of this, you can also Save and Load config
 <img width="1601" height="826" alt="image" src="https://github.com/user-attachments/assets/94e3c9c2-6d32-474d-90fc-ba1d0266d1b5" />
 
 You can check the metadata and even modified the pixel one if you edit them, click on `Confirm` and `Save Pixel Sizes`
+
 
 #### Viewer
 <img width="1605" height="827" alt="image" src="https://github.com/user-attachments/assets/ed2d6642-1584-4d00-a766-e27d8dcd23f5" />
