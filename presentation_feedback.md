@@ -19,6 +19,8 @@
 - sliders to set min and max in the viewer
 - write to a protected s3 buckets? if so, which hosts are supported?
 - Add compression like jpegxr
+- support highcontent screening like operetta
+- support for czi cell discoverer muti-series
 
 ## Links :
 - https://github.com/vib-bic-workshop/2026_ome-zarr_hackathon
