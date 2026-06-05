@@ -19,7 +19,7 @@
 - sliders to set min and max in the viewer
 - write to a protected s3 buckets? if so, which hosts are supported?
 - Add compression like jpegxr
-- support highcontent screening like operetta
+- support highcontent screening like operetta maybe intermediate companion ome file used by bioformatraw
 - support for czi cell discoverer muti-series
 
 ## Links :
